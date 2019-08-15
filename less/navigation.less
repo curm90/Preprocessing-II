@@ -5,18 +5,38 @@ nav {
   padding: 1.6rem 1.2rem;
   border-bottom: 2px dashed @navigation-border;
 
+  @media @mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   h1 {
     padding-left: 2.6rem;
+
+    @media @mobile {
+      font-size: 3.2rem;
+      padding: 0 0 1.4rem 0;
+    }
   }
   
   ul {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media @mobile {
+      align-content: space-between;
+      justify-content: space-evenly;
+      width: 100%;
+    }
   }
 
   li {
     padding: 0 2rem;
+
+    @media @mobile {
+      padding: 0;
+    }
 
     a {
       text-decoration: none;
