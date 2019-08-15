@@ -172,7 +172,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1.6rem 1.2rem;
-  border-bottom: 2px dashed #e0dddd;
+  border-bottom: 2px dashed #C0C0C0;
 }
 nav ul {
   display: flex;
@@ -186,7 +186,7 @@ nav li a {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 600;
-  color: black;
+  color: #212529;
 }
 .footer {
   width: 100%;
@@ -200,7 +200,7 @@ nav li a {
   padding: 20px;
 }
 .home header {
-  border-bottom: 3px dashed #e0dddd;
+  border-bottom: 3px dashed #C0C0C0;
 }
 .home header .header-text {
   padding: 1.2rem 0;
