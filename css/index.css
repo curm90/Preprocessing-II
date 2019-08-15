@@ -172,7 +172,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1.6rem 1.2rem;
-  border-bottom: 1px dashed #df9e9e;
+  border-bottom: 2px dashed #e0dddd;
 }
 nav ul {
   display: flex;
@@ -198,6 +198,12 @@ nav li a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  border-bottom: 3px dashed #e0dddd;
+}
+.home header .header-text {
+  padding: 1.2rem 0;
 }
 .home .content-section {
   margin: 30px 0;
