@@ -43,6 +43,11 @@ nav {
       font-size: 1.4rem;
       font-weight: 600;
       color: @shark;
+      transition: ease-out 0.15s;
+
+      &:hover {
+        .nav-hover-animation(@shark);
+      }
     }
   }
 }
