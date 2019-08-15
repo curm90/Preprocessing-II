@@ -1,7 +1,6 @@
 // Navigation Styles here
 nav {
-  display: flex;
-  justify-content: space-between;
+  .custom-flex-layout(space-between, center);
   padding: 1.6rem 1.2rem;
   border-bottom: 2px dashed @navigation-border;
 
@@ -23,13 +22,10 @@ nav {
   }
   
   ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .custom-flex-layout(center, center);
 
     @media @tablet {
-      align-content: space-between;
-      justify-content: space-evenly;
+      .custom-flex-layout(space-evenly, space-between);
       width: 100%;
     }
   }

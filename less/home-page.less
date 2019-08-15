@@ -12,9 +12,7 @@
 
   .content-section {
     margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    .custom-flex-layout(space-between, center);
     width: 90%;
 
     @media @mobile {
@@ -33,6 +31,10 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+
+      @media @tablet {
+        align-self: center;
+      }
 
       @media @mobile {
         width: 100%;
@@ -65,6 +67,10 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @tablet {
+        align-self: center;
+      }
     }
   }
 
@@ -89,8 +95,7 @@
   .content-pick {
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
-    display: flex;
-    justify-content: space-between;
+    .custom-flex-layout(space-between, center);
 
     @media @tablet {
       flex-direction: column;
