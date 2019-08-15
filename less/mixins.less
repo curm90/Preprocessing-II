@@ -20,3 +20,13 @@
   justify-content: @justify;
   align-items: @align;
 }
+
+.input-hover-animation {
+  transform: scale(1.05);
+  transition: ease-in 0.1s;
+}
+
+.button-hover-animation(@background) {
+  background: darken(@background, 10%);
+  .input-hover-animation();
+}
