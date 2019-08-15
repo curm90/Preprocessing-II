@@ -174,7 +174,7 @@ nav {
   padding: 1.6rem 1.2rem;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   nav {
     flex-direction: column;
     align-items: center;
@@ -183,10 +183,14 @@ nav {
 nav h1 {
   padding-left: 2.6rem;
 }
+@media (max-width: 800px) {
+  nav h1 {
+    padding: 0 0 1.4rem 0;
+  }
+}
 @media (max-width: 500px) {
   nav h1 {
     font-size: 3.2rem;
-    padding: 0 0 1.4rem 0;
   }
 }
 nav ul {
@@ -194,7 +198,7 @@ nav ul {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   nav ul {
     align-content: space-between;
     justify-content: space-evenly;
@@ -299,7 +303,7 @@ nav li a:hover {
   margin: 0 auto;
   padding-bottom: 3rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-destination {
     width: 90%;
   }
@@ -307,7 +311,7 @@ nav li a:hover {
 .home .content-destination img {
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-destination img {
     width: 100%;
   }
@@ -318,7 +322,7 @@ nav li a:hover {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-pick {
     flex-direction: column;
   }
@@ -327,9 +331,9 @@ nav li a:hover {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-pick .destination {
-    width: 90%;
+    width: 75%;
     justify-self: center;
     align-self: center;
   }
@@ -342,6 +346,11 @@ nav li a:hover {
   padding: 1.2rem 0;
   text-align: center;
   border-radius: 16px;
+}
+@media (max-width: 800px) {
+  .home .btn {
+    width: 50%;
+  }
 }
 @media (max-width: 500px) {
   .home .btn {

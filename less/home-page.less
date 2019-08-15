@@ -73,14 +73,14 @@
     margin: 0 auto;
     padding-bottom: 3rem;
 
-    @media @mobile {
+    @media @tablet {
       width: 90%;
     }
 
     img {
       border-radius: 10px;
 
-      @media @mobile {
+      @media @tablet {
         width: 100%;
       }
     }
@@ -92,7 +92,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media @mobile {
+    @media @tablet {
       flex-direction: column;
     }
 
@@ -100,8 +100,8 @@
       width: 30%;
       margin-bottom: 30px;
 
-      @media @mobile {
-        width: 90%;
+      @media @tablet {
+        width: 75%;
         justify-self: center;
         align-self: center;
       }
@@ -110,6 +110,10 @@
 
   .btn {
     .sign-up-button(@white, @button-bg);
+
+    @media @tablet {
+      width: 50%;
+    }
 
     @media @mobile {
       margin: 0 auto;
