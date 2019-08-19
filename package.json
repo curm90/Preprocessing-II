@@ -1,0 +1,13 @@
+{
+  "name": "preprocessing-2",
+  "version": "1.0.0",
+  "scripts": {
+    "less": "less-watch-compiler less css index.less",
+    "serve": "live-server"
+  },
+  "dependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}
